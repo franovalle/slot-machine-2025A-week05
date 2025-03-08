@@ -54,26 +54,26 @@ function slotReturnAgain() {
 function increaseFifty() {
 	playersCash = playersCash + 50 * 20;
 	document.querySelector('#totalCash').innerHTML = playersCash;
-	document.querySelector('#results').innerText = ('WINNER!!!!!WINNER!!!!!WINNER!!!!!')
+	document.querySelector('#results').innerText = ('WINNER!!!!! WINNER!!!!! WINNER!!!!!')
 
 }
 function increaseFive() {
 	playersCash = playersCash + 5 * 100;
 	document.querySelector('#totalCash').innerHTML = playersCash;
-	document.querySelector('#results').innerText = ('WINNER!!!!!WINNER!!!!!WINNER!!!!!')
+	document.querySelector('#results').innerText = ('WINNER!!!!! WINNER!!!!! WINNER!!!!!')
 
 
 }
 function decreaseFifty() {
 	playersCash -= 50;
 	document.querySelector('#totalCash').innerHTML = playersCash;
-	document.querySelector('#results').innerText = ('TRY AGAIN!')
+	document.querySelector('#results').innerText = ('ALMOST, TRY AGAIN!')
 
 }
 function decreaseFive() {
 	playersCash -= 5;
 	document.querySelector('#totalCash').innerHTML = playersCash;
-	document.querySelector('#results').innerText = ('TRY AGAIN!')
+	document.querySelector('#results').innerText = (' ALMOST, TRY AGAIN!')
 
 
 }

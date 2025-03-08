@@ -10,17 +10,11 @@ html {
 header,
 footer {
   border: 1px solid transparent;
-  height: 100px;
+  height: 200px;
   clear: both;
   color: red;
-  font-size: 2.5rem;
-  padding: 0rem; 
-}
-
-h2 {
-
-  margin-left: 40rem;
-  font-size: 2rem;
+  font-size: 4rem;
+  padding: 0rem;
 }
 
 footer {
@@ -31,231 +25,56 @@ footer {
   font-size: 1.5rem;
 }
 
+h2 {
+
+  margin-left: 40rem;
+  font-size: 2rem;
+}
+
 .table {
   border: 1px solid transparent;
   height: 180px;
   clear: both;
-  background: green; 
+  background: #85BB65;
+  font-size: 4.2rem;
+
 }
 
-#cash, #totalCash {
+.slots {
   border: 1px solid transparent;
-  height:80px;
-  background-color: pink ;
- 
-}
-
-
-
-
-
-
-
-/*header {
-  border: 1px solid transparent;
-  height: 100px;
-  background: #1CAC78;
-  clear: both;
+  height: 180px;
+  background: #006400;
+  font-size: 15rem;
 
 }
 
-header nav {
-  height: 100px;
-}
-
-
-.navmiddle {
-  border-right: 1px solid #1CAC78;
-  border-left: 1px solid #1CAC78;
-  border-bottom: 1px solid #1CAC78;
-  margin: auto;
-  width: 80%;
+.eachSlot {
+  width: 33.33%;
   float: left;
-  height: 100px;
-  background: white;
-}
-
-.logo {
-  margin-left: 5rem;
-  width: 80%;
-  height: 75px;
-}
-
-.navright {
-  list-style-type: none;
-  text-decoration: none;
-  float: left;
-  width: 10%;
-}
-
-/*Note to self: I need to keep playing with float here*/
-
-
-/*.navleft {
-  float: left;
-  list-style-type: none;
-  text-decoration: none;
-  color: white;
-  font-size: 10px;
-  width: 10%;
+  color: orange;
 
 }
 
-.whitetop {
+.bottomButtons {
   border: 1px solid transparent;
-  height: 25px;
-  width: 100%;
-  float: left;
-  list-style-type: none;
-  margin-bottom: 10px;
-}
-
-.whitetop li {
-  float: left;
-  margin: 2rem 2rem;
-  list-style-type: none;
-}
-
-.whitetop li a {
-  color: black;
-  font-weight: 700;
-  text-decoration: none;
-  margin: 4rem 4rem;
-  font-size: 1.5rem;
-
-}
-
-.full {
-  border: 1px solid transparent;
-  height: 500px;
-  width: 60%;
-  margin: auto;
-
-}
-
-h2 {
-  text-align: center;
-  font-size: 5.5rem;
-  font-weight: 950;
-}
-
-.photogroup {
-  margin: auto;
-}
-
-.photos {
-  width: 55%;
-  margin-left: 15rem;
-}
-
-/* Note to self: I have to fix the margin of the photos*/
-
-/*.middle {
-  border: 1px solid transparent;
-  height: 300px;
-  display: flex;
-
+  height: 80px;
+  background: #006400;
 
 
 }
 
-.middletop {
-  flex: 1;
-  margin-left: 1.5rem;
-  width: 30%;
-}
-
-.bottom {
-  border: 1px solid transparent;
-  height: 300px;
-  display: flex;
-
-}
-
-.bottom1 {
-  flex: 1;
-  margin-left: 1.5rem;
-  width: 30%;
-
-}
-
-h3 {
-  font-size: 1.3rem;
-
-}
-
-footer {
-  border: 1px solid black;
-  height: 100px;
-  background: black;
-
-}
-
-@media (max-width: 1200px) {
-  .whitetop li a {
-      font-size: 1rem;
-      margin: 2.5rem;
-  }
-}
-@media(max-width: 1078px){
-  .bottom1, .middletop{
-      margin-left: 3rem;;
-  
-  }
-  .no{display: none;}
-
-}
-@media(max-width: 902px){
-  .bottom1, .middletop{
-      margin-left: 1rem;;
-  
-  }
-h2{
-      font-size: 4.5rem;
-  }
-.photos{
-  width: 100%;
-  margin-left:2rem;
-}
-
-}
-@media(max-width: 869px){
-  .whitetop li a {
-      font-size: 0.8rem;
-      margin: 2rem;
-  }
-.middle, .bottom{
-  display:none;
-}
-}
-
-@media(max-width:751px){
-  .no1{display: none;}
-}
-@media(max-width:651px){
-  .no2{display: none;}
-}
-
-
-/*{
-  box-sizing: border-box;
-}
-h1, header {
-  border: 1px solid black;
- height: 100px;
- clear:both;
- 
- 
-}
-.slots{
-  border: 1px solid black;
-  height: 200px;
-  width: 33.333%; 
-  float: left; 
-}
 .buttons {
-  border: 1px solid black;
-  height: 200px;
-  width: 50%; 
-  float: left; 
-}*/
+  width: 50%;
+  float: left;
+  height: 80px;
+  color: #013220;
+  font-size: 4.5rem;
+}
+
+@media(max-width: 950px) {
+
+  header {
+    font-size: 3rem; 
+
+  }
+}
